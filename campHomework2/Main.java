@@ -6,22 +6,22 @@ public class Main {
 
 		Course course1 = new Course();
 		course1.id = 1;
-		course1.name = "Yazılım Geliştirici Yetistirme Kampı(C# + ANGULAR)";
-		course1.detail = "2 ay sürecek ücretsiz ve profesyonel bir programla, sıfırdan yazılım geliştirme öğreniyoruz.";
+		course1.name = "YazÃ½lÃ½m GeliÃ¾tirici Yetistirme KampÃ½(C# + ANGULAR)";
+		course1.detail = "2 ay sÃ¼recek Ã¼cretsiz ve profesyonel bir programla, sÃ½fÃ½rdan yazÃ½lÃ½m geliÃ¾tirme Ã¶Ã°reniyoruz.";
 		course1.instructor = "Engin Demirog";
 		course1.price = "Ucretsiz";
 		
 		Course course2 = new Course();
 		course2.id = 2;
-		course2.name = "Yazılım Geliştirici Yetistirme Kampı(Java + React)";
-		course2.detail = "2 ay sürecek ücretsiz ve profesyonel bir programla, sıfırdan yazılım geliştirme öğreniyoruz.";
+		course2.name = "YazÃ½lÃ½m GeliÃ¾tirici Yetistirme KampÃ½(Java + React)";
+		course2.detail = "2 ay sÃ¼recek Ã¼cretsiz ve profesyonel bir programla, sÃ½fÃ½rdan yazÃ½lÃ½m geliÃ¾tirme Ã¶Ã°reniyoruz.";
 		course2.instructor = "Engin Demirog";
 		course2.price = "Ucretsiz";
 		
 		Course course3 = new Course();
 		course3.id = 3;
 		course3.name = "Programlamaya Giris icin Temel Kurs";
-		course3.detail = "PYTHON, JAVA, C# gibi tüm programlama dilleri için temel programlama mantığını anlaşılır örneklerle öğrenin.";
+		course3.detail = "PYTHON, JAVA, C# gibi tÃ¼m programlama dilleri iÃ§in temel programlama mantÃ½Ã°Ã½nÃ½ anlaÃ¾Ã½lÃ½r Ã¶rneklerle Ã¶Ã°renin.";
 		course3.instructor = "Engin Demirog";
 		course3.price = "Ucretsiz";
 		
@@ -48,6 +48,7 @@ public class Main {
 		course2.write(course2.students);
 		
 	}
+	
 
 }
 
